@@ -1,0 +1,27 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: #168CD9;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #168CD9;
+    font-weight: bold;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: #fff;
+} 
+
+.navbar-toggler{
+    background-color: #16D2D9;
+}
+.estilo-titulos{
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+}
