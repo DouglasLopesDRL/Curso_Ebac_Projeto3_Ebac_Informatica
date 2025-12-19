@@ -8,14 +8,80 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
     <title>Ebac Informática</title>
 </head>
 <body>
-    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-4 navbar-dark bg-dark">
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-4">
         <div class="container">
-            <h1 class="navbar-brand m-0">EBAC Informática</h1>
+            <h1 class="navbar-brand m-0 estilo-titulos">EBAC Informática</h1>
+            <button class="navbar-toggler mb-1" type="button" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#sobre-nos" class="nav-link fw-bold active">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#consoles" class="nav-link fw-bold">
+                            <i class="bi bi-box-seam me-1"></i>
+                            Consoles
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#jogos" class="nav-link fw-bold">
+                            <i class="bi bi-controller me-1"></i>
+                            Jogos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link fw-bold">
+                            <i class="bi bi-envelope me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-nos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="imagens/fachada-loja.png" alt="Fachada da loja EBAC Informática">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/estante-consoles.png" alt="Interior da loja EBAC Informática estante de Consoles">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/estante-jogos.png" alt="Interior da loja EBAC Informática estante de Jogos">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/atendimento-loja.png" alt="Atendimento na loja EBAC Informática">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            
+        </section>
+    </div>
 
     <script src="lib/bootstrap.bundle.min.js"></script>
 </body>
