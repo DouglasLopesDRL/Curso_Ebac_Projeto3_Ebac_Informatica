@@ -34,6 +34,19 @@ body{
     max-height: 650px;        
 }
 
+.estilo-section{
+    background-color: #83edf0;
+}
+.nav-consoles .nav-link.active#plays{
+    background-color: #0728bc;
+}
+.nav-consoles .nav-link.active#xboxs{
+    background-color: #048230;
+}
+.nav-consoles .nav-link.active#nintendos{
+    background-color: #e60012;
+}
+
 @media (min-width: 300px) and (max-width: 1399px) {
     #sobre-a-loja{
         flex: none;
