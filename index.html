@@ -27,6 +27,12 @@
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a href="#ultimas-noticias" class="nav-link fw-bold">
+                            <i class="bi bi-newspaper me-1"></i>
+                            Últimas Notícias
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#consoles" class="nav-link fw-bold">
                             <i class="bi bi-box-seam me-1"></i>
                             Consoles
@@ -161,7 +167,99 @@
                 </div>
             </div>
         </section>
+        <section id="ultimas-noticias" class="estilo-section pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="estilo-titulos text-center">Últimas <span class="estilo-textos-cor">Notícias</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="imagens/noticia-ps5.png" alt="Notícia PS5" class="d-block w-100 img-fluid rounded mb-2">
+                        <h3>Redução nos preços</h3>
+                        <p>
+                            A Sony anunciou descontos de fim de ano nos produtos PlayStation, incluindo o PS5 Slim e o PS5 Pro, com reduções de preço em varejistas nos EUA e ofertas em acessórios até o final de dezembro de 2025.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/noticia-xbox.png" alt="Notícia XBOX" class="d-block w-100 img-fluid rounded mb-2">
+                        <h3>Atualização de grande jogo</h3>
+                        <p>
+                            O clássico Divinity: Original Sin 2 recebeu uma atualização gratuita para Xbox Series X|S, trazendo melhorias gráficas e desempenho otimizado para a geração atual.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/noticia-nintendo.png" alt="Notícia Nintendo" class="d-block w-100 img-fluid rounded mb-2">
+                        <h3>Nintendo anuncia novos jogos</h3>
+                        <p>
+                            A Nintendo anunciou que novos jogos estão programados para chegar ao Nintendo Switch e ao Nintendo Switch 2 ao longo de 2026, incluindo versões atualizadas de Animal Crossing: New Horizons com recursos expandidos.
+                        </p>
+                    </div>      
+                </div>
+            </div>
+        </section>
+        <section id="consoles" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="estilo-titulos text-center">Consoles <span class="estilo-textos-cor">Disponíveis</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-consoles d-block">
+                            <button type="button" id="plays" data-bs-toggle="tab" data-bs-target="playstation" class="nav-link fw-bold text-start text-colored active">Playstation</button>
+                            <button type="button" id="xboxs" data-bs-toggle="tab" data-bs-target="xbox" class="nav-link fw-bold text-start text-colored">Xbox</button>
+                            <button type="button" id="nintendos" data-bs-toggle="tab" data-bs-target="nintendo" class="nav-link fw-bold text-start text-colored">Nintendo</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="playstation">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="imagens/ps4-fat-venda.png" alt="Console PS4 FAT" class="d-block w-100 img-fluid rounded">
+                                        <h5 class="estilo-textos-cor fw-bold mt-2">PlayStation 4 fat</h5>
+                                        <p>
+                                            Console PlayStation 4 fat com 500GB de armazenamento.
+                                        </p>
+                                        <p class="fs-5 fw-bold">R$ 1.299,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens/ps4-slim-venda.png" alt="Console PS4 SLIM" class="d-block w-100 img-fluid rounded">
+                                        <h5 class="estilo-textos-cor fw-bold mt-2">PlayStation 4 slim</h5>
+                                        <p>
+                                            Console PlayStation 4 slim com 500GB de armazenamento.
+                                        </p>
+                                        <p class="fs-5 fw-bold">R$ 1.599,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens/ps4-pro-venda.png" alt="Console PS4 PRO" class="d-block w-100 img-fluid rounded">
+                                        <h5 class="estilo-textos-cor fw-bold mt-2">PlayStation 4 pro</h5>
+                                        <p>
+                                            Console PlayStation 4 pro com 1TB de armazenamento.
+                                        </p>
+                                        <p class="fs-5 fw-bold">R$ 1.899,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imagens/ps5-fat-venda.png" alt="Console PS5 FAT" class="d-block w-100 img-fluid rounded">
+                                        <h5 class="estilo-textos-cor fw-bold mt-2">PlayStation 5 fat</h5>
+                                        <p>
+                                            Console PlayStation 5 fat com 825GB de armazenamento.
+                                        </p>
+                                        <p class="fs-5 fw-bold">R$ 2.599,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="xbox"></div>
+                            <div class="tab-pane" id="nintendo"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
     </div>
+
+
 
     <script src="lib/bootstrap.bundle.min.js"></script>
 </body>
