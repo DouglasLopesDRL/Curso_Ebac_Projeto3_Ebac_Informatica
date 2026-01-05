@@ -37,14 +37,27 @@ body{
 .estilo-section{
     background-color: #83edf0;
 }
-.nav-consoles .nav-link.active#plays{
+
+.nav-consoles .nav-link.active.estilo-plays,
+.nav-jogos .nav-link.active.estilo-plays{
     background-color: #0728bc;
 }
-.nav-consoles .nav-link.active#xboxs{
+.nav-consoles .nav-link.active.estilo-xboxs,
+.nav-jogos .nav-link.active.estilo-xboxs{
     background-color: #048230;
 }
-.nav-consoles .nav-link.active#nintendos{
+.nav-consoles .nav-link.active.estilo-nintendos,
+.nav-jogos .nav-link.active.estilo-nintendos{
     background-color: #e60012;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
 }
 
 @media (min-width: 300px) and (max-width: 1399px) {
