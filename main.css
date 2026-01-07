@@ -64,4 +64,9 @@ body{
     #sobre-a-loja{
         flex: none;
     }
+    button.estilo-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
